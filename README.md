@@ -14,7 +14,7 @@ $ bundle
 $ gem install qiniu
 使用方法
 
-在项目config/initializers 新建文件qiniu_sdk.rb.并添加以下代码：                                                                     #!/usr/bin/env ruby
+###在项目config/initializers 新建文件qiniu_sdk.rb.并添加以下代码：                                                                     #!/usr/bin/env ruby
 require 'qiniu'
 Qiniu.establish_connection! :access_key => 七牛帐号key,
                             :secret_key => 七牛帐号secret,
